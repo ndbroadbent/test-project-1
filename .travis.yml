@@ -9,5 +9,5 @@ notifications:
     on_failure: always
     recipients:
       - nathan.f77@gmail.com
-      - nathan..f77@gmail.com
+      - nathan.f77@gmail.com
 
