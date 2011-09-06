@@ -4,7 +4,7 @@
 
 # before_script: "echo foo; sleep 200"
 notifications:
-  on_success: change
+  on_success: always
   email:
     on_failure: always
 
