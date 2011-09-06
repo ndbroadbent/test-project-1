@@ -12,7 +12,7 @@ task :test do
     putc '.'
     $stdout.flush
   end
-  exit 1
+  exit 0
 end
 
 task :default => :test
