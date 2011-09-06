@@ -4,4 +4,9 @@
 
 # before_script: "echo foo; sleep 200"
 notifications:
-  disabled: true
+  email:
+    on_success: :always
+    on_failure: :always
+    recipients:
+      - nathan.f77@gmail.com
+
