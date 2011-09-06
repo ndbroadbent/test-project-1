@@ -3,8 +3,4 @@
 #     - master
 
 # before_script: "echo foo; sleep 200"
-notifications:
-  email:
-    on_success: always
-    on_failure: always
 
