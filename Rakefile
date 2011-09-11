@@ -12,7 +12,8 @@ task :test do
     putc '.'
     $stdout.flush
   end
-  exit 0
+  status = File.read("status").strip.to_i rescue 0
+  exit status
 end
 
 task :default => :test

@@ -1,0 +1,9 @@
+#!/bin/bash
+echo $1 > status
+# Commit status with trailing space if nothing has changed.
+if [ $(git status --porcelain | wc -l) -gt 0 ]; then
+  echo "$1 " > status
+fi
+git commit -am "Exit status is $1"
+git push origin master
+
