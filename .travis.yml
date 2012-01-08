@@ -3,6 +3,9 @@
 #     - master
 
 # before_script: "echo foo; sleep 200"
+<<<<<<< HEAD
 notifications:
   on_success: always
   on_failure: always
+=======
+>>>>>>> a100e9efef9dec1cb883b8ecfaf32befd239a6b8
