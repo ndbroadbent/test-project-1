@@ -11,7 +11,7 @@ task :test do
   putc '.'
   $stdout.flush
 
-  exit 11 
+  exit 1 
 end
 
 task :default => :test
